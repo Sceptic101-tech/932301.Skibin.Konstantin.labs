@@ -34,6 +34,7 @@ nav{
     margin-top: -10px;
     margin-left: 40%;
 }
+
 a{
     text-align: center;
     color: red;
@@ -97,6 +98,7 @@ table{
     border-spacing: 3px;
     table-layout: fixed;
 }
+
 td{
     width: 45px;
     height:35px;
