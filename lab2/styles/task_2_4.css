@@ -11,9 +11,10 @@ body{
 
 .content{
     width: 700px;
-    flex-shrink: 0;
+    flex-shrink: 1;
     font-size: 16px;
     font-weight: 500;
+    flex-shrink: 1;
 }
 
 .main_content{

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.texts_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texts{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_text{
+    text-align: left;
+    margin: 20px 0px 20px 0px;
+}
+
+.second_text{
+    text-align: left;
+    border: 10px solid blue;
+    padding: 60px;
+}
