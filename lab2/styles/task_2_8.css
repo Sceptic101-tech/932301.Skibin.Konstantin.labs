@@ -24,12 +24,12 @@ body{
 }
 .left_content .internal_text{
     padding: 10px;
-    background-color: orange;
+    background-color: bisque;
 }
 
 .main_content{
     flex: 1;
-    background-color: grey;
+    background-color: darkgray;
 }
 
 .footer{
@@ -37,6 +37,6 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: green;
+    background-color: limegreen;
     padding: 40px;
 }

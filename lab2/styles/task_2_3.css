@@ -10,7 +10,7 @@ body{
 }
 
 .content{
-    width: 700px;
+    width: 750px;
     flex-shrink: 0;
     font-size: 16px;
     font-weight: 500;

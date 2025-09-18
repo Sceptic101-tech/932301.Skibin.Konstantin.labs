@@ -16,16 +16,16 @@ body{
 
 .content{
     flex: 1;
-    margin: 5px;
+    margin: 10px;
 }
 
 .small_box{
-    background-color: green;
+    background-color: aquamarine;
     margin: 20px;
     width: 200px;
     height: 100px;
 }
 
 .long_box{
-    background-color: orange;
+    background-color: bisque;
 }
