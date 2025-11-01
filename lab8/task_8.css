@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+}
+
+.map_elements{
+    display: flex;
+    flex-direction: column;
+}
+
+.element_row{
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom_buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.objects_add{
+    max-width: 8dvw;
+    padding: 3px;
+}
+
+.objects_save{
+    max-width: 5dvw;
+    padding: 3px;
+}
+
+.objects_saved{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.objects_up_btn, .objects_down_btn, .objects_close_btn{
+    padding: 2px 5px 2px 5px;
+}
