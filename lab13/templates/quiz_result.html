@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Hello Mockups - Backend3</title>
+</head>
+<body>
+    <header>
+        <div class="header_text">Backend3</div>
+        <div class="header_ref home_page"><a href="/Mockups">Home</a></div>
+        <div class="header_ref mockups_page"><a href="/Mockups">Mockups</a></div>
+    </header>
+    <div class="main_container">
+        <div class="page_name">Quiz results</div>
+        <h2>Right answers {{ correct_num }} of {{ all_num }}</h2>
+
+        <ul class="quiz_result_lst">
+            {% for question_num, question_dict in questions.items() %}
+                {% if question_dict['is_correct'] == False %}
+                    <li style="color: red;">{{ question_dict['first_num'] }} {{ question_dict['operator'] }} {{ question_dict['second_num'] }} = {{ question_dict['user_ans'] }}</li>
+                {% endif %}
+                {% if question_dict['is_correct'] == True %}
+                    <li style="color: green;">{{ question_dict['first_num'] }} {{ question_dict['operator'] }} {{ question_dict['second_num'] }} = {{ question_dict['user_ans'] }}</li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+    <footer>
+        <div class="underscore"></div>
+        © 2025 - Backend3
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Hello Quiz - Backend3</title>
+</head>
+<body>
+    <header>
+        <div class="header_text">Backend3</div>
+        <div class="header_ref home_page"><a href="/Mockups">Home</a></div>
+        <div class="header_ref mockups_page"><a href="/Mockups">Mockups</a></div>
+    </header>
+    <div class="main_container">
+        <div class="page_name">Quiz</div>
+        <div class="equation">{{ first_num }} {{ operator }} {{ second_num }} = </div>
+
+        <form class="equation_form" method="post">
+            <input class="user_input" type="text" class="answer", name="answer", value="0"><br>
+            <div class="submit_btns">
+                <button class="next_btn" type="submit" name="action" value="next">Next</button>
+                <button class="finish_btn" type="submit" name="action" value="finish">Finish</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="underscore"> </div>
+        © 2025 - Backend3
+    </footer>
+</body>
+</html>
