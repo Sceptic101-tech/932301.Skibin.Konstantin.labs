@@ -12,8 +12,8 @@ addBtn.addEventListener('click', () => {
         <input type="text" class="objects_input">
         <button type="button" class="objects_up_btn">&uarr;</button>
         <button type="button" class="objects_down_btn">&darr;</button>
-        <button type="button" class="objects_close_btn">&times;</button>
-    `;
+        <button type="button" class="objects_close_btn">&times;</button>`;
+        
     newObject.querySelector('.objects_up_btn').addEventListener('click', moveObjectUp);
     newObject.querySelector('.objects_down_btn').addEventListener('click', moveObjectDown);
     newObject.querySelector('.objects_close_btn').addEventListener('click', removeObject);
